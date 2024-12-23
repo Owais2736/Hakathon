@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <>
       <header className='flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
-        <div className='flex flex-wrap items-center justify-between gap-5 w-full'>
+        <div className='flex flex-wrap items-center justify-between gap-5 pl-28 w-full'>
           <a className='flex' href="javascript:void(0)">
             <Image src={Navbarlogo} alt="" />
             <h1 className='font-bold text-[24px]'>Furniro</h1>
@@ -44,10 +44,10 @@ function Navbar() {
                 <Link href='/contact' className='hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Contact</Link>
               </li>
             </ul>
+          </div>
 
 
-
-            <div className='flex gap-10'>
+          <div className='flex gap-10'>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
     <path d="M12 22C7.99306 22 5.98959 22 4.7448 20.682C3.5 19.364 3.5 17.2426 3.5 13C3.5 8.75736 3.5 6.63604 4.7448 5.31802C5.98959 4 7.99306 4 12 4C16.0069 4 18.0104 4 19.2552 5.31802C20.5 6.63604 20.5 8.75736 20.5 13C20.5 17.2426 20.5 19.364 19.2552 20.682C18.0104 22 16.0069 22 12 22Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
     <path d="M8 4V2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
@@ -72,9 +72,6 @@ function Navbar() {
 </svg>
 </div>
 
-
-
-          </div>
 
           {/* Hamburger Menu Button */}
           <div className='flex max-lg:ml-auto gap-5'>
