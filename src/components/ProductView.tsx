@@ -1,10 +1,12 @@
+'use client'
+import Image from 'next/image';
 import React from 'react';
 
 function ProductView() {
   const data = [
-    { name: "Dinning" , "src" :"images/productView/image1.png" },
-    { name: "Living" , "src" :"images/productView/image2.png" },
-    { name: "Bedroom" , "src" :"images/productView/image3.png" },
+    { name: "Dinning" , "src" :require(`../../public/images/productView/image1.png`) },
+    { name: "Living" , "src" :require(`../../public/images/productView/image2.png`) },
+    { name: "Bedroom" , "src" :require(`../../public/images/productView/image3.png`) },
   ];
 
   return (
@@ -16,7 +18,7 @@ function ProductView() {
             className="bg-white flex flex-col rounded overflow-hidden shadow-md cursor-pointer hover:scale-[1.01] transition-all"
           >
             <div className="w-full">
-              <img
+              <Image
                 src={item.src}
                 alt={item.name}
                 className="w-full object-cover object-top aspect-[230/307]"

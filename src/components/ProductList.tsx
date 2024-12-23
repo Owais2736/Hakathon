@@ -1,16 +1,18 @@
+'use client'
+import Image from 'next/image';
 import { it } from 'node:test';
 import React from 'react'
 
 function ProductList() {
   const data = [
-    { name: "Syltherine", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": "images/productList/images.png" },
-    { name: "Respira", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": "images/productList/images (1).png" },
-    { name: "Bedroom", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": "images/productList/images (2).png" },
-    { name: "Living", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": "images/productList/images (3).png" },
-    { name: "Pooty", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": "images/productList/images (4).png" },
-    { name: "Buffy", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": "images/productList/images (5).png" },
-    { name: "Commercial", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": "images/productList/images (6).png" },
-    { name: "Muggo", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": "images/productList/images (1).png" },
+    { name: "Syltherine", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
+    { name: "Respira", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
+    { name: "Bedroom", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
+    { name: "Living", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
+    { name: "Pooty", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
+    { name: "Buffy", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`)},
+    { name: "Commercial", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
+    { name: "Muggo", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
 
 
   ];
@@ -27,7 +29,7 @@ function ProductList() {
 
             return (<div key={item.name} className="bg-white flex flex-col overflow-hidden cursor-pointer hover:shadow-md transition-all">
               <div className="w-full">
-                <img src={item.src} alt="Product 1"
+                <Image src={item.src} alt="Product 1"
                   className="w-full object-cover object-top aspect-[230/307]" />
               </div>
 

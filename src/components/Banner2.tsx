@@ -1,3 +1,7 @@
+'use client'
+
+import { room } from '@/imgimport/images'
+import Image from 'next/image'
 import React from 'react'
 
 function Banner2() {
@@ -22,7 +26,7 @@ function Banner2() {
 
 
       <div className="sm:h-[400px]">
-        <img src="images/room.png" className="w-full h-full object-contain" />
+        <Image src={room} className="w-full h-full object-contain" />
       </div>
     </div>
    

@@ -1,11 +1,14 @@
+'use client'
+import { BannerImg } from '@/imgimport/images';
+import Image from 'next/image';
 import React from 'react';
 
 function Banner() {
   return (
     <>
       <div className="relative font-sans h-auto aspect-[16/9] sm:aspect-[21/9] before:z-10">
-        <img
-          src="/images/Banner.png"
+        <Image
+          src={BannerImg}
           alt="Banner Image"
           className="absolute w-full h-full object-cover"
         />

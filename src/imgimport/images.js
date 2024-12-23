@@ -1,0 +1,5 @@
+export const ShopBannerImg = require("../../public/images/shop/banner/shopbanner.png")
+export const Navbarlogo = require("../../public/images/Navbarlogo.png")
+export const BannerImg = require("../../public/images/Banner.png")
+export const productListImg1 = require("../../public/images/productList/Images (1).png")
+export const room = require("../../public/images/room.png")
