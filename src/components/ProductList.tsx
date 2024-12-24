@@ -2,16 +2,22 @@
 import Image from 'next/image';
 import React from 'react'
 import img1 from '../../public/images/productList/Images.png'
+import img2 from '../../public/images/productList/Images (1).png'
+import img3 from '../../public/images/productList/Images (2).png'
+import img4 from '../../public/images/productList/Images (3).png'
+import img5 from '../../public/images/productList/Images (4).png'
+import img6 from '../../public/images/productList/Images (5).png'
+import img7 from '../../public/images/productList/Images (6).png'
 
 function ProductList() {
   const data = [
     { name: "Syltherine", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
-    { name: "Respira", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
-    { name: "Bedroom", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
-    { name: "Living", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
-    { name: "Pooty", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
-    { name: "Buffy", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1},
-    { name: "Commercial", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
+    { name: "Respira", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img2 },
+    { name: "Bedroom", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img3 },
+    { name: "Living", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img4 },
+    { name: "Pooty", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img5 },
+    { name: "Buffy", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img6},
+    { name: "Commercial", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img7 },
     { name: "Muggo", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
 
 
