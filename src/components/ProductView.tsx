@@ -1,12 +1,15 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
+import img1 from '../../public/images/productView/image1.png'
+import img2 from '../../public/images/productView/image2.png'
+import img3 from '../../public/images/productView/image3.png'
 
 function ProductView() {
   const data = [
-    { name: "Dinning" , "src" :require(`../../public/images/productView/image1.png`) },
-    { name: "Living" , "src" :require(`../../public/images/productView/image2.png`) },
-    { name: "Bedroom" , "src" :require(`../../public/images/productView/image3.png`) },
+    { name: "Dinning" , "src" :img1 },
+    { name: "Living" , "src" :img2 },
+    { name: "Bedroom" , "src" :img3 },
   ];
 
   return (

@@ -1,18 +1,18 @@
-'use client'
+
 import Image from 'next/image';
-import { it } from 'node:test';
 import React from 'react'
+import img1 from '../../public/images/productList/Images.png'
 
 function ProductList() {
   const data = [
-    { name: "Syltherine", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
-    { name: "Respira", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
-    { name: "Bedroom", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
-    { name: "Living", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
-    { name: "Pooty", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
-    { name: "Buffy", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`)},
-    { name: "Commercial", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
-    { name: "Muggo", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": require(`../../public/images/productList/Images.png`) },
+    { name: "Syltherine", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
+    { name: "Respira", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
+    { name: "Bedroom", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
+    { name: "Living", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
+    { name: "Pooty", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
+    { name: "Buffy", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1},
+    { name: "Commercial", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
+    { name: "Muggo", description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, labore?", "src": img1 },
 
 
   ];
@@ -40,7 +40,7 @@ function ProductList() {
                   <div className="flex flex-wrap justify-between gap-2 mt-2">
                     <div className="flex gap-2">
                       <h6 className="text-sm sm:text-base font-bold text-gray-800">$10</h6>
-                      <h6 className="text-sm sm:text-base text-gray-500"><strike>$15</strike></h6>
+                      <h6 className="text-sm sm:text-base text-gray-500"><span className='line-through'>$15</span></h6>
                     </div>
                     <div className="flex items-center gap-0.5">
                       <svg className="w-[14px] h-[14px] fill-yellow-600" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">

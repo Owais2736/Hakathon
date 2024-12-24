@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import { Navbarlogo } from '../imgimport/images' 
+import Navbarlogo from '../../public/images/Navbarlogo.png' 
 
 function Navbar() {
   // State to manage the menu's visibility

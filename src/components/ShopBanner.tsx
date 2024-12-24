@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import { ShopBannerImg } from '../imgimport/images' 
+import ShopBannerImg from '../../public/images/shop/banner/shopbanner.png' 
 
 function ShopBanner() {
   return (

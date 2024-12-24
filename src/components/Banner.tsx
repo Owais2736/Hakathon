@@ -1,5 +1,4 @@
-'use client'
-import { BannerImg } from '@/imgimport/images';
+import BannerImg from '../../public/images/Banner.png';
 import Image from 'next/image';
 import React from 'react';
 

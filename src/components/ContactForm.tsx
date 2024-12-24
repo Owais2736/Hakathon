@@ -73,7 +73,7 @@ function ContactForm() {
                     className="w-full rounded-md py-3 px-4 border-2 border-yellow-600 text-gray-800 text-sm outline-yellow-500 focus:bg-transparent" />
                 <input type='text' placeholder='Subject'
                     className="w-full rounded-md py-3 px-4 border-2 border-yellow-600 text-gray-800 text-sm outline-yellow-500 focus:bg-transparent" />
-                <textarea placeholder='Message' rows="6"
+                <textarea placeholder='Message' rows={6} // Change this to a numeric value
                     className="w-full rounded-md px-4 border-2 border-yellow-600 text-gray-800 text-sm pt-3 outline-yellow-500 focus:bg-transparent"></textarea>
                 <button type='button'
                     className="text-white bg-yellow-600 hover:bg-white hover:text-yellow-600 hover:border-yellow-600 hover:border-2 tracking-wide rounded-md text-sm px-4 py-3 w-full !mt-6">Send</button>

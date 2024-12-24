@@ -1,5 +1,4 @@
-'use client'
-import { productListImg1 } from '@/imgimport/images'
+import productListImg1 from '../../public/images/productList/Images (1).png'
 import Image from 'next/image'
 import React from 'react'
 

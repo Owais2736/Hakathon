@@ -1,6 +1,5 @@
 
 import Banner from "@/components/Banner";
-import Image from "next/image";
 import ProductView from "@/components/ProductView";
 import ProductList from "@/components/ProductList";
 import Banner2 from "@/components/Banner2";
